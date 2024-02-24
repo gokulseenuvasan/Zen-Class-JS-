@@ -1,0 +1,53 @@
+1. Write a blog on Difference between HTTP1.1 vs HTTP2 ?
+    
+    HTTP1.1:
+        ▸ It works on the textual format.
+        ▸ There is head of line blocking that blocks all the requests behind it until it doesn’t get its all resources.
+        ▸ It uses requests resource Inlining for use getting multiple pages
+        ▸ It compresses data by itself.
+    
+
+    HTTP/2:   
+        ▸ It works on the binary protocol.
+        ▸ It allows multiplexing so one TCP connection is required for multiple requests.
+        ▸ It uses PUSH frame by server that collects all multiple pages 
+        ▸ It uses HPACK for data compression.
+        ▸
+
+
+
+2. Write a blog about objects and its internal representation in Javascript
+
+    Objects:
+        ▸ An object is a collection of properties, and a property is an association between a name (or key) and a value. A property's value can be a function, in which case the property is known as a method. Objects in JavaScript, just as in many other programming languages, can be compared to objects in real life
+
+    Example:
+        <!-- object creation -->
+        const person = { 
+        name: 'John',
+        age: 20
+        };
+        console.log(typeof person);
+
+    Output:
+        object
+
+
+    
+3. Read about IP address, port, HTTP methods, MAC address
+
+    IP address:
+        ▸ Internet Protocol
+        ▸ An IP address, or Internet Protocol address, is a unique number that identifies a device connected to the internet. IP addresses are typically assigned by an internet service provider (ISP).
+
+    Port:
+        ▸ A network port is a virtual or physical point where network connections begin and end. Ports are software-based and managed by a computer's operating system. Each port is associated with a specific process or service.
+
+    HTTP methods:
+        ▸ Hypertext Transfer Protocol
+        ▸ Hypertext Transfer Protocol (HTTP) methods are a set of operations that allow users to interact with a server. HTTP methods are sometimes called HTTP verbs.
+
+    MAC address:
+        ▸ Media Access Control Address
+        ▸ A MAC address, or medium access control address, is a 12-digit hexadecimal number that uniquely identifies a device connected to a network. The MAC address is assigned to a device's network interface card (NIC) during manufacturing.
+    
